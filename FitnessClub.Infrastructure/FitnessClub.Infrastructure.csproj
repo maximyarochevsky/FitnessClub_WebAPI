@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Core\FitnessClub.Application\FitnessClub.Application.csproj" />
+    <ProjectReference Include="..\Core\FitnessClub.Domain\FitnessClub.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
