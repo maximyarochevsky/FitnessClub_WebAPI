@@ -1,15 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace FitnessClub.Infrastructure.Persistence
+namespace FitnessClub.Infrastructure.Persistence;
+
+public class FitnessClubDbContext: DbContext
 {
-    public class FitnessClubDbContext: DbContext
 
-    {
 
-    }
 }
+
