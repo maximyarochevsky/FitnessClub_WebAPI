@@ -1,6 +1,7 @@
 ﻿using FitnessClub.Domain.Entities.ClientEntity;
 using FitnessClub.Domain.Entities.CoachEntity;
 using FitnessClub.Domain.Entities.SubscriptionEntity;
+using FitnessClub.Infrastructure.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
 
 namespace FitnessClub.Infrastructure.Persistence;
@@ -16,6 +17,9 @@ public class FitnessClubDbContext: DbContext
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
+        builder.ApplyConfiguration(new ClientConfiguration());
+        builder.ApplyConfiguration(new CoachConfiguration());
+        builder.ApplyConfiguration(new SubscriptionConfiguration());
         base.OnModelCreating(builder);
     }
 }
