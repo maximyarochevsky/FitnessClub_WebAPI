@@ -7,7 +7,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FitnessClub.Domain\FitnessClub.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\Commands\" />
+    <Folder Include="Auth\Queries\" />
+    <Folder Include="Coach\Commands\" />
+    <Folder Include="Coach\Queries\" />
+    <Folder Include="Supscription\Commands\" />
+    <Folder Include="Supscription\Queries\" />
   </ItemGroup>
 
 </Project>

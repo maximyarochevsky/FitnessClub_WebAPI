@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessClub.Domain", "Core\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessClub.WebAPI", "Presentation\FitnessClub.WebAPI\FitnessClub.WebAPI.csproj", "{A716A9BD-6D34-4B13-9801-36916F53BB48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FitnessClub.Infrastructure", "FitnessClub.Infrastructure\FitnessClub.Infrastructure.csproj", "{3B128202-2749-4933-B863-1A73C229F74E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FitnessClub.Infrastructure", "Infrastructure\FitnessClub.Infrastructure\FitnessClub.Infrastructure.csproj", "{1F0E1E4E-0881-4940-A347-C4703AB23E61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{A716A9BD-6D34-4B13-9801-36916F53BB48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A716A9BD-6D34-4B13-9801-36916F53BB48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A716A9BD-6D34-4B13-9801-36916F53BB48}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3B128202-2749-4933-B863-1A73C229F74E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3B128202-2749-4933-B863-1A73C229F74E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3B128202-2749-4933-B863-1A73C229F74E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3B128202-2749-4933-B863-1A73C229F74E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F0E1E4E-0881-4940-A347-C4703AB23E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F0E1E4E-0881-4940-A347-C4703AB23E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F0E1E4E-0881-4940-A347-C4703AB23E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F0E1E4E-0881-4940-A347-C4703AB23E61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,7 +47,7 @@ Global
 		{CE66A22B-73CC-41C8-9B74-1B7B232F2173} = {0CD0685A-2234-4FBF-806F-6C0A2AEB56C9}
 		{082ADA78-9FD7-4882-8DAC-40E45A9CA84E} = {0CD0685A-2234-4FBF-806F-6C0A2AEB56C9}
 		{A716A9BD-6D34-4B13-9801-36916F53BB48} = {A93CC08C-8473-4FB7-B8BA-C68FB0B30669}
-		{3B128202-2749-4933-B863-1A73C229F74E} = {2B240BDE-2899-4A31-9AAA-643A2FEC36F7}
+		{1F0E1E4E-0881-4940-A347-C4703AB23E61} = {2B240BDE-2899-4A31-9AAA-643A2FEC36F7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8A2C69F9-23D7-42C7-B1A2-1D35B40739B4}
