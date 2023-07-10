@@ -22,6 +22,8 @@
     <Folder Include="Coach\Queries\" />
     <Folder Include="Supscription\Commands\" />
     <Folder Include="Supscription\Queries\" />
+    <Folder Include="TrainingProgram\Commands\" />
+    <Folder Include="TrainingProgram\Queries\" />
   </ItemGroup>
 
 </Project>

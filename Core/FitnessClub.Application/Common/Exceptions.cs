@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace FitnessClub.Application.Common
 {
-    internal class Exceptions
+    public class Exceptions
     {
+
     }
 }
